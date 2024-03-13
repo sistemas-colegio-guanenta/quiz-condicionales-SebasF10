@@ -6,9 +6,9 @@ print("----- VERIFICAR TRIANGULO ----")
 print("------------------------------")
 
 # input
-a = int(input("Ingrese la longitud del lado a: "))
-b = int(input("Ingrese la longitud del lado b: "))
-c = int(input("Ingrese la longitud del lado c: "))
+a = float(input("Ingrese la longitud del lado a: "))
+b = float(input("Ingrese la longitud del lado b: "))
+c = float(input("Ingrese la longitud del lado c: "))
 # processing and output
 if a + b > c:
     if a + c > b:
